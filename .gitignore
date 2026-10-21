@@ -1,0 +1,10 @@
+# 项目内部数据，不入库
+.workbuddy/
+
+# 本地修改日志（含本机绝对路径）
+修改日志.md
+
+# 系统杂物
+Thumbs.db
+.DS_Store
+desktop.ini
