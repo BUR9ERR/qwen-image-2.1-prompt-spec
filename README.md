@@ -96,7 +96,7 @@ This is an RGBA image with transparency. <description>. The image has alpha chan
 | 适用对象 | 许可 | 文件 |
 |---|---|---|
 | 本仓库的整理、改写、编排、示例与推导章节（原创贡献） | **CC BY-NC 4.0** | [`LICENSE`](./LICENSE) |
-| 上游 Qwen-Image-2.1 的资料与其原始条款 | **Qwen RESEARCH LICENSE AGREEMENT** | [`LICENSE-QWEN-RESEARCH`](./LICENSE-QWEN-RESEARCH) |
+| 上游 Qwen-Image-2.1 的资料与其原始条款 | **Qwen RESEARCH LICENSE AGREEMENT** | [`third-party/LICENSE-Qwen-Research.txt`](./third-party/LICENSE-Qwen-Research.txt) |
 
 两者**均不授予商业使用权**，因此不存在授权冲突；本仓库的 CC 授权不超过我们自身拥有的权利范围。来源、改动与使用限制详见 [`NOTICE`](./NOTICE)。
 

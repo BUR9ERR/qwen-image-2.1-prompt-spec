@@ -10,7 +10,7 @@
 >
 > **标注约定**：`[官方]` = 原文可查；`[推导]` = 由官方规则组合而得，官方无专门章节（角色卡、动作变更属此类）。
 >
-> **改动说明**：本文档非官方原文副本，系对上述上游文件的中文整理、改写与补充（结构重组、新增推导章节与示例）。部分句式与模板按原样引用。许可与归属见 [`LICENSE`](./LICENSE)、[`LICENSE-QWEN-RESEARCH`](./LICENSE-QWEN-RESEARCH) 与 [`NOTICE`](./NOTICE)，仅限非商业用途。
+> **改动说明**：本文档非官方原文副本，系对上述上游文件的中文整理、改写与补充（结构重组、新增推导章节与示例）。部分句式与模板按原样引用。许可与归属见 [`LICENSE`](./LICENSE)、[`third-party/LICENSE-Qwen-Research.txt`](./third-party/LICENSE-Qwen-Research.txt) 与 [`NOTICE`](./NOTICE)，仅限非商业用途。
 
 ---
 

@@ -11,7 +11,8 @@
                            —— 适用于本仓库中对本仓库有权授权的部分，即整理、
                               改写、编排、示例、推导章节与中文表述等原创贡献。
 
-  LICENSE-QWEN-RESEARCH    Qwen RESEARCH LICENSE AGREEMENT
+  third-party/LICENSE-Qwen-Research.txt
+                           Qwen RESEARCH LICENSE AGREEMENT
                            —— 上游资料的原始许可，随本仓库一并分发以满足其
                               再分发义务。上游资料的权利人仍为
                               Hangzhou Tongyi Laboratory Technology Co., Ltd.。
@@ -50,7 +51,7 @@ All Rights Reserved.
 ------------------------------------------------------------------
 
 1. 仅限非商业用途（研究、学习或评估）。商业使用须另行获得授权。
-2. 再分发时须附带 LICENSE、LICENSE-QWEN-RESEARCH 与本 NOTICE。
+2. 再分发时须附带 LICENSE、third-party/LICENSE-Qwen-Research.txt 与本 NOTICE。
 3. 须保留署名，并注明是否作出修改。
 4. 不得将 "Qwen" 用作衍生产品的主名称或标识；描述性使用（如本仓库标题）属允许范围。
 5. 若用于创建、训练、微调或改进对外提供的 AI 模型，须在产品文档中显著标注
