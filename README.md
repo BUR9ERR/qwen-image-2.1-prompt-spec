@@ -1,5 +1,7 @@
 # Qwen-Image-2.1 提示词规范
 
+> **非官方项目。** 第三方整理，与 Qwen 团队、阿里巴巴集团及杭州通义实验室无隶属或背书关系。
+
 把 Qwen-Image-2.1 官方仓库里的**提示词改写模型系统提示词**，整理成一套可直接执行的规则集，覆盖文生图、图像编辑、角色卡、多视图 / 三视图、动作变更（含双图姿态迁移）。
 
 目标不是再写一份教程，而是让任意 LLM 拿到这套规则后，能稳定产出 Qwen-Image-2.1 可直接渲染的提示词。
@@ -89,15 +91,21 @@ This is an RGBA image with transparency. <description>. The image has alpha chan
 
 ## License
 
-本仓库沿用上游 [Qwen-Image-2.1](https://github.com/QwenLM/Qwen-Image-2.1) 的许可：
-**Qwen RESEARCH LICENSE AGREEMENT**（Release Date: September 20, 2026）。
+本仓库采用 **双许可结构**，两种来源各自适用：
 
-- 许可全文见 [`LICENSE`](./LICENSE)；归属声明与改动说明见 [`NOTICE`](./NOTICE)。
-- **仅限非商业用途**（研究或评估）。商业使用须另行向 Hangzhou Tongyi Laboratory Technology Co., Ltd. 申请许可。
-- 这不是 OSI 认可的开源许可，GitHub 不会显示标准的许可证标识。
-- 再分发须附带本许可副本与 `NOTICE`。
-- 不得将 "Qwen" 用作衍生产品的主名称；描述性使用（如本仓库标题）在许可允许范围内。
-- 若据此创建或改进对外提供的 AI 模型，须在产品文档中标注 "Built with Qwen" 或 "Improved using Qwen"。
-- 适用中国法律，争议由杭州市人民法院管辖。
+| 适用对象 | 许可 | 文件 |
+|---|---|---|
+| 本仓库的整理、改写、编排、示例与推导章节（原创贡献） | **CC BY-NC 4.0** | [`LICENSE`](./LICENSE) |
+| 上游 Qwen-Image-2.1 的资料与其原始条款 | **Qwen RESEARCH LICENSE AGREEMENT** | [`LICENSE-QWEN-RESEARCH`](./LICENSE-QWEN-RESEARCH) |
 
-本仓库的整理与改写部分：Copyright (c) 2026 BUR9ERR。上游原文与模板的著作权归原权利人所有。
+两者**均不授予商业使用权**，因此不存在授权冲突；本仓库的 CC 授权不超过我们自身拥有的权利范围。来源、改动与使用限制详见 [`NOTICE`](./NOTICE)。
+
+需要知道的几点：
+
+- **非商业**：仅限研究、学习与评估。商业使用须另行获得相应授权（上游商用须联系 Hangzhou Tongyi Laboratory Technology Co., Ltd.）。
+- **须署名**：转载或再分发须保留署名、注明是否修改，并随附上述两份许可与 `NOTICE`。
+- **商标**：不得将 "Qwen" 用作衍生产品的主名称；本仓库标题属描述性使用。
+- **模型场景**：若据此创建或改进对外提供的 AI 模型，须在产品文档中标注 "Built with Qwen" 或 "Improved using Qwen"。
+- **非开源**：CC BY-NC 4.0 不是 OSI 认可的开源许可，GitHub 会显示 `CC-BY-NC-4.0` 标识，但不属于 Open Source。
+
+本仓库原创部分：Copyright (c) 2026 BUR9ERR。上游原文与模板的著作权归原权利人所有。
