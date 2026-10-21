@@ -89,4 +89,15 @@ This is an RGBA image with transparency. <description>. The image has alpha chan
 
 ## License
 
-尚未确定。如需公开分发，请先补充 LICENSE 文件。
+本仓库沿用上游 [Qwen-Image-2.1](https://github.com/QwenLM/Qwen-Image-2.1) 的许可：
+**Qwen RESEARCH LICENSE AGREEMENT**（Release Date: September 20, 2026）。
+
+- 许可全文见 [`LICENSE`](./LICENSE)；归属声明与改动说明见 [`NOTICE`](./NOTICE)。
+- **仅限非商业用途**（研究或评估）。商业使用须另行向 Hangzhou Tongyi Laboratory Technology Co., Ltd. 申请许可。
+- 这不是 OSI 认可的开源许可，GitHub 不会显示标准的许可证标识。
+- 再分发须附带本许可副本与 `NOTICE`。
+- 不得将 "Qwen" 用作衍生产品的主名称；描述性使用（如本仓库标题）在许可允许范围内。
+- 若据此创建或改进对外提供的 AI 模型，须在产品文档中标注 "Built with Qwen" 或 "Improved using Qwen"。
+- 适用中国法律，争议由杭州市人民法院管辖。
+
+本仓库的整理与改写部分：Copyright (c) 2026 BUR9ERR。上游原文与模板的著作权归原权利人所有。

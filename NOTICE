@@ -1,0 +1,38 @@
+本仓库内容基于 Qwen-Image-2.1 官方资料整理与改写
+=================================================
+
+Qwen is licensed under the Qwen RESEARCH LICENSE AGREEMENT,
+Copyright (c) 2026 Hangzhou Tongyi Laboratory Technology Co., Ltd.
+All Rights Reserved.
+
+上游项目：https://github.com/QwenLM/Qwen-Image-2.1
+上游许可：Qwen RESEARCH LICENSE AGREEMENT（Release Date: September 20, 2026）
+许可全文：见本仓库 LICENSE 文件
+
+------------------------------------------------------------------
+改动说明
+------------------------------------------------------------------
+
+本仓库不是官方文档的副本。文中规范系依据上游仓库以下文件整理、改写与补充而成：
+
+  prompt_rewrite/prompts/system_prompt_t2i.txt
+  prompt_rewrite/prompts/system_prompt_edit.txt
+  prompt_rewrite/README.md
+  README.md
+
+具体改动：结构被重新组织为「共享内核 → 两种骨架 → 分场景 → 差异矩阵 → 复用方法」；
+补充了官方未独立成章的推导性章节（角色卡、动作变更、双图姿态迁移）；
+新增中文表述、示例指令、反模式清单与自检清单。
+原文中的部分句式与模板按原样引用，并已标明 `[官方]` / `[推导]` 归属。
+
+本仓库的整理与改写部分：Copyright (c) 2026 BUR9ERR
+
+------------------------------------------------------------------
+使用限制（摘要，以 LICENSE 全文为准）
+------------------------------------------------------------------
+
+1. 仅限非商业用途（研究或评估）。商业使用须另行向上游权利人申请许可。
+2. 再分发时须附带本许可副本与本 NOTICE。
+3. 若用于创建、训练、微调或改进对外提供的 AI 模型，须在产品文档中显著标注
+   "Built with Qwen" 或 "Improved using Qwen"。
+4. 不得将 "Qwen" 用作衍生产品的主名称或标识；描述性使用（如本仓库标题）属允许范围。
